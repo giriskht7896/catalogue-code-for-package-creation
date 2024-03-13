@@ -13,8 +13,8 @@ pipeline{
         }
         stage('sonar scan'){
              steps {
-                sh 'sonar-scanner'
-        }
+                sh ' sonar-scanner '
+            }
         }
        
     }
